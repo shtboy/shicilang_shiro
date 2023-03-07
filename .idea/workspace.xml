@@ -5,34 +5,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="290c2756-587a-4089-837b-82799dd2e07d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../shicilang_shiro/shiro-jwt/src/main/java/com/shicilang/ShiroJwtApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../shicilang_shiro/shiro-jwt/src/main/java/com/shicilang/dao/AccountDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../shicilang_shiro/shiro-jwt/src/main/java/com/shicilang/dao/AccountRoleDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../shicilang_shiro/shiro-jwt/src/main/java/com/shicilang/dao/PermissionDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../shicilang_shiro/shiro-jwt/src/main/java/com/shicilang/dao/RoleDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../shicilang_shiro/shiro-jwt/src/main/java/com/shicilang/dao/RolePermissionDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../shicilang_shiro/shiro-jwt/src/main/java/com/shicilang/dos/RoleNameJriDo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../shicilang_shiro/shiro-jwt/src/main/java/com/shicilang/entity/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../shicilang_shiro/shiro-jwt/src/main/java/com/shicilang/entity/AccountRole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../shicilang_shiro/shiro-jwt/src/main/java/com/shicilang/entity/Permission.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../shicilang_shiro/shiro-jwt/src/main/java/com/shicilang/entity/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../shicilang_shiro/shiro-jwt/src/main/java/com/shicilang/entity/RolePermission.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../shicilang_shiro/shiro-jwt/src/main/java/com/shicilang/service/AccountRoleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../shicilang_shiro/shiro-jwt/src/main/java/com/shicilang/service/AccountService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../shicilang_shiro/shiro-jwt/src/main/java/com/shicilang/service/PermissionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../shicilang_shiro/shiro-jwt/src/main/java/com/shicilang/service/RolePermissionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../shicilang_shiro/shiro-jwt/src/main/java/com/shicilang/service/RoleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../shicilang_shiro/shiro-jwt/src/main/java/com/shicilang/service/impl/AccountRoleServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../shicilang_shiro/shiro-jwt/src/main/java/com/shicilang/service/impl/AccountServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../shicilang_shiro/shiro-jwt/src/main/java/com/shicilang/service/impl/PermissionServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../shicilang_shiro/shiro-jwt/src/main/java/com/shicilang/service/impl/RolePermissionServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../shicilang_shiro/shiro-jwt/src/main/java/com/shicilang/service/impl/RoleServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../shicilang_shiro/shiro-jwt/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shicilang_shiro/shiro-jwt/src/main/java/com/shicilang/config/ShiroConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shicilang_shiro/shiro-jwt/src/main/java/com/shicilang/config/exceptions/IdentityException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shicilang_shiro/shiro-jwt/src/main/java/com/shicilang/config/filter/UrlPermissionFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shicilang_shiro/shiro-jwt/src/main/java/com/shicilang/config/handler/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shicilang_shiro/shiro-jwt/src/main/java/com/shicilang/config/permission/UrlPermission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shicilang_shiro/shiro-jwt/src/main/java/com/shicilang/config/realm/MyRealm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shicilang_shiro/shiro-jwt/src/main/java/com/shicilang/config/resolver/RolePermissionResolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shicilang_shiro/shiro-jwt/src/main/java/com/shicilang/config/resolver/UrlPermissionResolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shicilang_shiro/shiro-jwt/src/main/java/com/shicilang/controller/ErrorControllerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shicilang_shiro/shiro-jwt/src/main/java/com/shicilang/controller/ShiroController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shicilang_shiro/shiro-jwt/src/main/java/com/shicilang/util/secure/SecureUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shicilang_shiro/shiro-jwt/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../shicilang_shiro/shiro-jwt/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shicilang_shiro/shiro-jwt/target/classes/com/shicilang/ShiroJwtApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/../shicilang_shiro/shiro-jwt/target/classes/com/shicilang/ShiroJwtApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shicilang_shiro/shiro-jwt/target/classes/com/shicilang/dao/AccountDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/../shicilang_shiro/shiro-jwt/target/classes/com/shicilang/dao/AccountDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shicilang_shiro/shiro-jwt/target/classes/com/shicilang/dao/PermissionDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/../shicilang_shiro/shiro-jwt/target/classes/com/shicilang/dao/PermissionDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shicilang_shiro/shiro-jwt/target/classes/com/shicilang/dao/RoleDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/../shicilang_shiro/shiro-jwt/target/classes/com/shicilang/dao/RoleDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shicilang_shiro/shiro-jwt/target/classes/com/shicilang/entity/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/../shicilang_shiro/shiro-jwt/target/classes/com/shicilang/entity/Account.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../shicilang_shiro" />
@@ -70,7 +71,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "D:/Mrsong/gitHub/shicilang_shiro/shiro-jwt",
+    "last_opened_file_path": "D:/Mrsong/gitHub/shicilang_shiro/shiro-jwt/src/main/java/com/shicilang/config/resolver",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -85,7 +86,16 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Mrsong\gitHub\shicilang_shiro\shiro-jwt\src\main\java\com\shicilang\config\resolver" />
+      <recent name="D:\Mrsong\gitHub\shicilang_shiro\shiro-jwt\src\main\java\com\shicilang\util" />
       <recent name="D:\Mrsong\gitHub\shicilang_shiro\shiro-jwt" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.shicilang.config.handler" />
+      <recent name="com.shicilang.controller" />
+      <recent name="com.shicilang.config" />
+      <recent name="com.shicilang.config.exceptions" />
+      <recent name="com.shicilang.config.permission" />
     </key>
   </component>
   <component name="RunManager">
@@ -116,11 +126,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678096855991</updated>
-      <workItem from="1678096858408" duration="2213000" />
+      <workItem from="1678096858408" duration="16648000" />
     </task>
+    <task id="LOCAL-00001" summary="2">
+      <created>1678174671429</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1678174671429</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2" />
+    <option name="LAST_COMMIT_MESSAGE" value="2" />
   </component>
 </project>

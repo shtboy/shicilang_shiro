@@ -2,7 +2,7 @@ spring:
   # mysql
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://127.0.0.1:3307/baozun_crm?characterEncoding=utf-8&serverTimezone=Asia/Shanghai&useUnicode=true
+    url: jdbc:mysql://127.0.0.1:3307/shiro_jwt?characterEncoding=utf-8&serverTimezone=Asia/Shanghai&useUnicode=true
     username: root
     password: root
   ## 在404时抛出异常
