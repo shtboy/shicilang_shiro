@@ -1,0 +1,28 @@
+spring:
+  # mysql
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3307/baozun_crm?characterEncoding=utf-8&serverTimezone=Asia/Shanghai&useUnicode=true
+    username: root
+    password: root
+  ## 在404时抛出异常
+  mvc:
+    throw-exception-if-no-handler-found: true
+  resources:
+    add-mappings: false
+  application:
+    name: shicilang-shiro测试项目
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl #开启sql日志
+  mapper-locations: classpath:mapper/*.xml
+server:
+  port: 9527
+logging:
+  level:
+    root: info
+    com:
+      shicilang:
+        dao: debug
+shiro:
+  loginUrl: /login

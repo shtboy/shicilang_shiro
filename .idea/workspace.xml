@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="290c2756-587a-4089-837b-82799dd2e07d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../shicilang_shiro/shiro-jwt/src/main/java/com/shicilang/ShiroJwtApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shicilang_shiro/shiro-jwt/src/main/java/com/shicilang/dao/AccountDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shicilang_shiro/shiro-jwt/src/main/java/com/shicilang/dao/AccountRoleDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shicilang_shiro/shiro-jwt/src/main/java/com/shicilang/dao/PermissionDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shicilang_shiro/shiro-jwt/src/main/java/com/shicilang/dao/RoleDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shicilang_shiro/shiro-jwt/src/main/java/com/shicilang/dao/RolePermissionDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shicilang_shiro/shiro-jwt/src/main/java/com/shicilang/dos/RoleNameJriDo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shicilang_shiro/shiro-jwt/src/main/java/com/shicilang/entity/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shicilang_shiro/shiro-jwt/src/main/java/com/shicilang/entity/AccountRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shicilang_shiro/shiro-jwt/src/main/java/com/shicilang/entity/Permission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shicilang_shiro/shiro-jwt/src/main/java/com/shicilang/entity/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shicilang_shiro/shiro-jwt/src/main/java/com/shicilang/entity/RolePermission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shicilang_shiro/shiro-jwt/src/main/java/com/shicilang/service/AccountRoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shicilang_shiro/shiro-jwt/src/main/java/com/shicilang/service/AccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shicilang_shiro/shiro-jwt/src/main/java/com/shicilang/service/PermissionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shicilang_shiro/shiro-jwt/src/main/java/com/shicilang/service/RolePermissionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shicilang_shiro/shiro-jwt/src/main/java/com/shicilang/service/RoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shicilang_shiro/shiro-jwt/src/main/java/com/shicilang/service/impl/AccountRoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shicilang_shiro/shiro-jwt/src/main/java/com/shicilang/service/impl/AccountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shicilang_shiro/shiro-jwt/src/main/java/com/shicilang/service/impl/PermissionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shicilang_shiro/shiro-jwt/src/main/java/com/shicilang/service/impl/RolePermissionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shicilang_shiro/shiro-jwt/src/main/java/com/shicilang/service/impl/RoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shicilang_shiro/shiro-jwt/src/main/resources/application.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../shicilang_shiro" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:\software\maven\apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\software\maven\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2MdUGMzg2yCEKabYM9lhezKGuGX" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "D:/Mrsong/gitHub/shicilang_shiro/shiro-jwt",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Mrsong\gitHub\shicilang_shiro\shiro-jwt" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="ShiroJwtApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="shiro-jwt" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.shicilang.ShiroJwtApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shicilang.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ShiroJwtApp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="290c2756-587a-4089-837b-82799dd2e07d" name="Changes" comment="" />
+      <created>1678096855991</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1678096855991</updated>
+      <workItem from="1678096858408" duration="2213000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
