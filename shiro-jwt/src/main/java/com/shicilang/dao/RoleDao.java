@@ -18,6 +18,6 @@ import java.util.Set;
  */
 public interface RoleDao extends BaseMapper<Role> {
 
-    @Select("        select j.uri,r.role_name from t_permission j inner join t_role_permission rj on j.id = rj.permission_id inner join t_role r on r.id = rj.role_id where r.role_name = #{roleName}\n")
+    @Select("        select j.uri,r.role_name from permission j inner join role_permission rj on j.id = rj.permission_id inner join role r on r.id = rj.role_id where r.role_name = #{roleName}")
     Set<RoleNameJriDo> getPermissionsByRoleName(String roleName);
 }

@@ -18,9 +18,9 @@ import java.util.Set;
 public interface AccountDao extends BaseMapper<Account> {
 
     @Select("        select r.`role_name`\n" +
-            "        from t_account a\n" +
-            "                 inner join t_account_role ar on a.id = ar.account_id\n" +
-            "                 inner join t_role r on r.`id` = ar.`role_id` where a.account_name = #{accountName};\n" +
+            "        from account a\n" +
+            "                 inner join account_role ar on a.id = ar.account_id\n" +
+            "                 inner join role r on r.`id` = ar.`role_id` where a.account_name = #{accountName};\n" +
             "        -- 根据账号名查询角色")
     Set<String> getRolesByAccountName(String accountName);
 

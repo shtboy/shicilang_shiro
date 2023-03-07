@@ -16,13 +16,13 @@ import java.util.Set;
  */
 public interface PermissionDao extends BaseMapper<Permission> {
 
-    @Select(" SELECT j.* FROM t_account a\n" +
-            "                            INNER JOIN t_account_role ar\n" +
+    @Select(" SELECT j.* FROM account a\n" +
+            "                            INNER JOIN account_role ar\n" +
             "                                       ON a.id = ar.account_id\n" +
-            "                            INNER JOIN t_role r ON r.`id`\n" +
+            "                            INNER JOIN role r ON r.`id`\n" +
             "            = ar.`role_id`\n" +
-            "                            INNER JOIN t_role_permission rj ON r.id = rj.`role_id`\n" +
-            "                            INNER JOIN t_permission j ON j.`id` = rj.`permission_id` where a.account_name = #{accountName};")
+            "                            INNER JOIN role_permission rj ON r.id = rj.`role_id`\n" +
+            "                            INNER JOIN permission j ON j.`id` = rj.`permission_id` where a.account_name = #{accountName};")
     Set<Permission> getPermissionByAccountName(String accountName);
 
 }

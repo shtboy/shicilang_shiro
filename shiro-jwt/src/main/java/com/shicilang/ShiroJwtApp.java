@@ -5,7 +5,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
- * @author Song
+ * @author shicilang
  * @date 2023/3/6 16:58
  * @Version 1.0
  */
@@ -14,5 +14,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class ShiroJwtApp {
     public static void main(String[] args) {
         SpringApplication.run(ShiroJwtApp.class);
+        System.out.println("=======启动结束========");
     }
 }

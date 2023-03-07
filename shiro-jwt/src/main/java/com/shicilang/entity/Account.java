@@ -46,4 +46,6 @@ public class Account implements Serializable {
      */
     @TableField("secret")
     private String secret;
+
+    Short status;
 }
